@@ -11,9 +11,18 @@
 <body>
     <header class="header-nave">
         <div class="container navbar-content">
-            <div class="logo">
+            <a href="/" class="logo">
                 <img src="./images/Logo Nave.jpg" alt="logo nave">
-            </div>
+            </a>
+            <a href="/" class="logo-mobile">
+
+                <img src="./images/Logo-footer.png" alt="logo nave mobile"> </a>
+
+            <button class="menu-hamburguesa" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <nav class="nav-links">
                 <ul>
                     <li> <a href="#">Medios de cobro</a></li>
@@ -22,47 +31,41 @@
                 </ul>
             </nav>
             <div class="nav-botones">
-                <a href="#" class="boton-borde">Espacio Nave</a>
-                <a href="#" class="boton-solido">Entrar a Nave</a>
+                <a href="#" class="btn btn-borde">Espacio Nave</a>
+                <a href="#" class="btn btn-solido">Entrar a Nave</a>
             </div>
         </div>
-
     </header>
-
     <main>
-
         <section class="hero-banner">
             <div class="hero-content">
                 <h1>Cobrás con Nave,tu<br>negocio vuela</h1>
                 <p>Gestionás todo a tu medida y viajás liviano de <br> comisiones</p>
                 <a href="#" class="btn-principal">Soy Galicia y quiero tener Nave</a>
             </div>
+
         </section>
 
         <section class="soluciones-container">
             <h2>Te damos la bienvenida al vuelo de tu negocio</h2>
-
             <div class="cards-grid">
-                <div class="card card-ventas">
+                <div class="card">
                     <div class="icon-container">
-                        <img src="./images/icono-ventas.png" alt="imagen dinero">
+                        <img src="./images/icono-ventas.png" alt="imagen dinero" class="icono-cards">
                     </div>
                     <h3>Elegí cuando acreditar <br> tus ventas</h3>
                     <p>lo haces desde la plataforma nave en pocos clicks</p>
                 </div>
-
-                <div class="card card-costos">
+                <div class="card">
                     <div class="icon-container">
-                        <img src="/images/icono-costos.png" alt="icono de costos">
+                        <img src="/images/icono-costos.png" alt="icono de costos" class="icono-cards">
                     </div>
                     <h3>Ganás más con costos <br> bajos</h3>
                     <p>los costos por cobro son bajos para que tu negocio crezca</p>
-
                 </div>
-
-                <div class="card card-promos">
+                <div class="card">
                     <div class="icon-container">
-                        <img src="./images/icono-promo.png" alt="icono de promos">
+                        <img src="./images/icono-promo.png" alt="icono de promos" class="icono-cards">
                     </div>
                     <h3>Vendés más con promos <br>a tu medida</h3>
                     <p>Ofrecé nuestras promos cuando pagan en tu negocio</p>
@@ -73,93 +76,106 @@
                     <h2>Historias que vuelan</h2>
                     <p>Conocé a los comercios que eligen Nave todos los días</p>
                 </div>
-                <div class="btn-historias">
-                    <a href="#" class="boton-historias">Conocer más</a>
-                </div>
+                <a href="#" class="btn btn-solido btn-historias">Conocer más</a>
+
             </div>
         </section>
-
-
-        <section class="seccion-cobro">
-
+        <section class="section-cobro">
             <div class="medio-cobro">
                 <h2>Encontrá el medio de cobro ideal</h2> <span>Elejí las opciones que mejor se ajusta a tu negocio
                 </span>
             </div>
-
             <div class="qr-container">
-
                 <div class="qr-content">
-
                     <h2>QR</h2>
                     <p>Ideal para cobrar en tu local o desde donde <br>prefieras sin manejar efectivo</p>
-                    <div>
-                        <a href="#" class="boton-qr">conocer más</a>
-                    </div>
+
                 </div>
                 <div class="logo-qr">
                     <img src="./images/icono-QR.png" alt="qr">
                 </div>
+                <div>
+                    <a href="#" class="btn-principal">conocer más</a>
+                </div>
             </div>
             <div class="terminal-container">
-
                 <div class="logo-terminal">
                     <img src="./images/icono-terminal.png" alt="terminal">
                 </div>
                 <div class="terminal-content">
                     <h2>Terminal Nave Point</h2>
                     <p>Aceptá pagos con tarjeta de débito y crédito en tu <br>local de forma rápida y segura.</p>
-                    <div><a href="#" class="boton-terminal">conocer más</a></div>
+                    <div><a href="#" class="btn-principal">conocer más</a></div>
                 </div>
             </div>
+            <div class="link-pago-container">
+                <div class="link__pago-logo">
+                    <img src="./images/link_de_pago_v2.png" alt="link de pago">
+                </div>
 
+                <div class="link-pago-text">
+                    <h2>Link de pago</h2>
+                    <p>La forma más fácil de vender por chat y redes <br>sociales.Compartí el link y cobrá desde
+                        cualquier <br>lugar.</p>
+                </div>
+                <div><a href="#" class="btn-principal">conocer más</a></div>
+            </div>
+
+            </div>
+            <div class="Tienda-online-container">
+                <div class="tienda-online-content">
+                    <img src="./images/Tienda-online-V2.png" alt="logo__tienda-online">
+
+                    <div class="Tienda-online">
+                        <h2>Tienda online</h2>
+                        <p>Ofrecé una experiencia de pagos sin fricciones<br>aceptando pagos con todos los medios de
+                            cobro.
+                        </p>
+                        <div><a href="#" class="btn-principal">conocer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-       
-<footer class="footer-nave">
-        <div class="footer-container">
-            <div class="footer-column footer-logo">
-                <img src="./images/Logo Nave.jpg" alt="logo nave">
-                <h3>Nave</h3>
+        <footer class="footer-container">
+            <div class="footer-column">
+                <img src="./images/icono-Nave.png" alt="logo nave" class=logo-footer>
+
+                <h2>Nave</h2>
                 <ul>
-                    <li><a href="#">Cobrá con Nave</a></li>
-                    <li><a href="#">Entrar a Nave</a></li>
-                    <li><a href="#">El blog de Nave</a></li>
-                    <li><a href="#">Empezar a cobrar</a></li>
-                    <li><a href="#">Abrir cuenta en Galicia</a></li>
-                    <li><a href="#">Cobranzas integradas</a></li>
-                    <li><a href="#">Nave developers</a></li>
-                    <li><a href="#">Integraciones</a></li>
+                    <li><a href="/cobrá">Cobrá con Nave</a></li>
+                    <li><a href="/entrá">Entrar a Nave</a></li>
+                    <li><a href="/blog">El blog de Nave</a></li>
+                    <li><a href="/empeza-cobrar">Empezar a cobrar</a></li>
+                    <li><a href="/abrir-cuenta">Abrir cuenta en Galicia</a></li>
+                    <li><a href="/cobranza-integrada">Cobranzas integradas</a></li>
+                    <li><a href="/nave-developers">Nave developers</a></li>
+                    <li><a href="/integraciones">Integraciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Medios de Cobro</h2>
+                <ul>
+                    <li><a href="/Cobrá con Qr">Cobrá con Qr</a></li>
+                    <li><a href="/Cobrá por tu tienda online">Cobrá por tu tienda online</a></li>
+                    <li><a href="/Cobrá con link de pago">Cobrá con link de pago</a></li>
+                    <li><a href="/Cobrá con Nave point">Cobrá con Nave point</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Beneficios</h2>
+                <ul>
+                    <li><a href="/Promociones">Promociones</a></li>
+                    <li><a href="/Mapa">Mapa de Nave</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>Te puede interesar</h2>
+                <ul>
+                    <li><a href="/Galicia">Galicia</a></li>
                 </ul>
             </div>
 
-            <div class="footer-column">
-                <h3>Medios de cobro</h3>
-                <ul>
-                    <li><a href="#">Cobrá con QR</a></li>
-                    <li><a href="#">Cobrá por tu tienda online</a></li>
-                    <li><a href="#">Cobrá con link de pago</a></li>
-                    <li><a href="#">Cobrá con Nave point</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Beneficios</h3>
-                <ul>
-                    <li><a href="#">Promociones</a></li>
-                    <li><a href="#">Mapa de Nave</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3>Te puede interesar</h3>
-                <ul>
-                    <li><a href="#">Galicia</a></li>
-                </ul>
-            </div>
-        </div> </footer>
 
         </footer>
-    </main>
-</body>
-
-</html>
